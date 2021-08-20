@@ -59,7 +59,7 @@ jobs:
           find dl -size -1024c -exec rm -f {} \;
 
       - name: Compile firmware
-        run: |##=================================================
+        run: 
 # Description: Build Phicomm N1 OpenWrt using GitHub Actions
 # Lisence: MIT
 # Author: mingxiaoyu
